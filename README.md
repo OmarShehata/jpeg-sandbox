@@ -10,6 +10,10 @@ It also visualizes the coefficients that make up each individual block in order 
 
 I created this to help with explaining how JPEG works for a talk at CodeBar 2022.
 
+Cat picture by [Mikhail Vasilyev](https://unsplash.com/photos/NodtnCsLdTE). Also inspired by the visualization in [https://www.jezzamon.com/fourier/](https://www.jezzamon.com/fourier/).
+
+See also my [Unraveling the JPEG](https://parametric.press/issue-01/unraveling-the-jpeg/) article.
+
 ### Local setup 
 
 Run `yarn` to install dependencies and `yarn dev` to run. Run the app on [localhost:3000](http://localhost:3000/).
