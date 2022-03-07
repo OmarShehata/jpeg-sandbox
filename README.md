@@ -4,6 +4,8 @@ This is a very barebones editor that supports clicking on any pixel in a JPEG im
 
 ### Live demo: https://jpeg-sandbox.glitch.me/
 
+Edit it on Glitch here: https://glitch.com/edit/#!/jpeg-sandbox
+
 ![jpeg-sandbox](https://user-images.githubusercontent.com/1711126/156947853-cb27be68-9f1b-4b3b-bd96-aba18cfc36a1.gif)
 
 It also visualizes the coefficients that make up each individual block in order of their weight. 
