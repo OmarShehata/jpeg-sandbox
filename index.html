@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>JPEG Viewer</title>
+    <script type="module" crossorigin src="/assets/index.4a0d58c9.js"></script>
+    <link rel="stylesheet" href="/assets/index.bb310ecb.css">
+  </head>
+  <body>
+    
+    
+    <canvas id="main"></canvas>
+    <canvas id="selected-block"></canvas>
+    <br>
+    <div id="dct-container">
+      <textarea id="dct-textbox" rows="9" cols="30"></textarea>
+      <div id="dct-grid-container">
+        <canvas id="dct-grid"></canvas>
+      </div>
+    </div>
+    <br>
+    <input id="slider" type="range" min="0" max="64" step="1" value="0"> 
+    <input type="checkbox" id="reverse" name="reverse">
+    <label for="reverse">Reversed</label><br>
+    <button id="reset">Reset</button>
+  </body>
+</html>
