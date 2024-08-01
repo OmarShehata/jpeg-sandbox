@@ -2,9 +2,7 @@
 
 This is a very barebones editor that supports clicking on any pixel in a JPEG image to see the 64 DCT coefficients that make up that 8x8 block. Each individual coefficient can be edited through text. You can also use the slider to zero out coefficients one by one starting with the lowest absolute value (which is what you'd do during compression) or reverse that to see what it would look like to throw away the most important coefficients first.
 
-### Live demo: https://jpeg-sandbox.glitch.me/
-
-Edit it on Glitch here: https://glitch.com/edit/#!/jpeg-sandbox
+### Live demo: https://omarshehata.github.io/jpeg-sandbox/
 
 ![jpeg-sandbox](https://user-images.githubusercontent.com/1711126/156947853-cb27be68-9f1b-4b3b-bd96-aba18cfc36a1.gif)
 

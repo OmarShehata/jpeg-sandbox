@@ -134,7 +134,7 @@ export function getSortedDCTIndices(block) {
 		return sortWithIndeces(Array.from(block)).sortIndices;
 }
 
-import dctBaseURL from '../static/dct_base.jpeg?url';
+const dctBaseURL = 'dct_base.jpeg'
 export async function generateDCTCoefficientCanvas() {
 	// Fetch 64 by 64
 	// Override all its DCT's 1 by 1
