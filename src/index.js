@@ -1,5 +1,5 @@
 // window.jpeg, loaded through index.html
-const imageUrl = 'cat_eye.jpeg'
+const imageUrl = 'letters.jpeg'
 import * as JpegUtils from './JpegUtils.js'
 import DragAndDrop from './DragAndDrop.js';
 
